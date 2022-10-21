@@ -1,0 +1,22 @@
+.statistics {
+    border: 1px solid red;
+    max-width: 640px;
+    margin: 0 auto;
+}
+.title {
+    text-align: center;
+    color: var(--color-secondary-text);
+    text-transform: uppercase;
+}
+.statList {
+    border: 1px solid green;
+}
+.item {
+    border: 1px solid orange;
+}
+.label {
+    border: 1px solid tomato;
+}
+.percentage {
+    border: 1px solid black;
+}
