@@ -1,7 +1,10 @@
 .statistics {
-    border: 1px solid red;
+    border: 1px solid var(--color-black);
     max-width: 640px;
     margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    overflow: hidden;
 }
 .title {
     text-align: center;
@@ -9,14 +12,21 @@
     text-transform: uppercase;
 }
 .statList {
-    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
 }
 .item {
-    border: 1px solid orange;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
 }
-.label {
-    border: 1px solid tomato;
+.label, .percentage {
+    font-size: 16px;
+    color: var(--color-white);
+    padding: 5px;
 }
 .percentage {
-    border: 1px solid black;
+    font-size: 20px;
+    font-weight: 700;
 }

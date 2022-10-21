@@ -6,6 +6,7 @@
     max-width: 320px;
     overflow: hidden;
     margin: 0 auto;
+    margin-bottom: 10px;
 }
 .description {
     background-color: var(--color-green);
