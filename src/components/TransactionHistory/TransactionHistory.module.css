@@ -1,28 +1,18 @@
-/* <table class="transaction-history">
-  <thead>
-    <tr>
-      <th>Type</th>
-      <th>Amount</th>
-      <th>Currency</th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>Invoice</td>
-      <td>125</td>
-      <td>USD</td>
-    </tr>
-    <tr>
-      <td>Withdrawal</td>
-      <td>85</td>
-      <td>USD</td>
-    </tr>
-  </tbody>
-</table> */
-
 .transactionHistory {
-    border: 1px solid tomato;
     width: 80%;
     margin: 0 auto;
+    border-collapse: collapse; 
+}
+.transactionRowHead {
+  font-size: 26px;
+  background-color: var(--color-primary-text);
+  color: var(--color-blue);
+}
+.transactionBodyRow:nth-child(2n) {
+  background-color: var(--color-secondary-text);
+}
+.transactionBodyTd,
+.transactionTh {
+  border: 1px solid black;
+  text-align: center;
 }
