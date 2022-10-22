@@ -8,30 +8,3 @@
     overflow: hidden;
     margin-bottom: 10px;
 }
-.item {
-    padding: 4px;
-    background: linear-gradient(var(--color-blue), var(--color-green));
-    position: relative;
-    border: 1px dashed;
-}
-.status {
-   display: block;
-   position: absolute;
-   top: 4px;
-   right: 4px;
-   width: 8px;
-   height: 8px;
-   border-radius: 50%;
-   background-color: var(--color-red);
-}
-.status.online {
-    background-color: var(--color-green);
-}
-.avatar {
-   margin: 10px 0;
-}
-.name {
-   text-align: center;
-   font-size: 18px;
-   font-weight: 600;
-}
